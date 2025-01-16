@@ -92,4 +92,15 @@
     color: #f8f8f8;
 }
 
-.converter-btn {}
+.converter-btn {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background: #181818;
+    color: #f8f8f8;
+    user-select: none;
+    cursor: pointer;
+    margin-left: 25px;
+    border: none;
+    outline: none;
+}
