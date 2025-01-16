@@ -15,6 +15,40 @@
 
 <body>
 
+    <div class="container">
+        <div class="wrapper">
+            <h1 class="title">Temperature Converter</h1>
+            <p>Enter the temperature, select units and submit</p>
+            <div class="converter">
+                <input type="number" class="converter-input" placeholder="0.00">
+                <div id="unit-from" class="unit-selection">
+                    <div class="unit-selected">
+                        <p>From Unit</p> <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                    <div class="unit-options">
+                        <div class="unit-option">Fahrenheit</div>
+                        <div class="unit-option">Celseus</div>
+                        <div class="unit-option">Kelvin</div>
+                    </div>
+                </div>
+                <div id="unit-to" class="unit-selection">
+                    <div class="unit-selected">
+                        <p>To Unit</p> <span class="material-symbols-outlined">
+                            keyboard_arrow_down
+                        </span>
+                    </div>
+                    <div class="unit-options">
+                        <div class="unit-option">Fahrenheit</div>
+                        <div class="unit-option">Celseus</div>
+                        <div class="unit-option">Kelvin</div>
+                    </div>
+                </div>
+                <button class="converter-btn">Convert</button>
+            </div>
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
