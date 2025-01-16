@@ -80,6 +80,10 @@
     display: none;
 }
 
+.unit-selection.active .unit-options {
+    display: block;
+}
+
 .unit-option {
     padding: 10px 32px;
     user-select: none;
@@ -103,4 +107,24 @@
     margin-left: 25px;
     border: none;
     outline: none;
+}
+
+.converter-btn:disabled {
+    background: #181818cc;
+}
+
+.result {
+    font-size: 18px;
+    margin-top: 25px;
+    display: none;
+}
+
+.result.green {
+    display: block;
+    color: green;
+}
+
+.result.red {
+    display: block;
+    color: crimson;
 }
